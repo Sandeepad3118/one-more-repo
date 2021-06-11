@@ -20,6 +20,6 @@
 </head>
 <body>
 	<h1>Hello World Example</h1>
-	<p>This is the newest tomcat build.</p>
+	<p>This is the newest tomcat build after declarative.</p>
 </body>
 </html>
