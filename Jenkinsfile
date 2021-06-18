@@ -18,10 +18,10 @@ pipeline {
             }
             
         }
-            stage('Deploy') {
-                steps {
-                    deploy adapters: [tomcat9(credentialsId: 'Tomcat', path: '', url: 'http://[2406:7400:73:b4b0:3e4d:41a3:8643:5bc8]')], contextPath: 'Tomcat_war.war', war: 'target/Tomcat_war.war'
-                }
-            }
+//             stage('Deploy') {
+//                 steps {
+//                     deploy adapters: [tomcat9(credentialsId: 'Tomcat', path: '', url: 'http://[2406:7400:73:b4b0:3e4d:41a3:8643:5bc8]')], contextPath: 'Tomcat_war.war', war: 'target/Tomcat_war.war'
+//                 }
+//             }
     }
 }
